@@ -8,7 +8,7 @@ body {
 	font-family: "Nanum Pen Script", cursive;
 }
 .container {
-	width: 50rem;
+	width: 70rem;
 	height: 30rem;
 	margin: 0 auto;
 }
@@ -24,4 +24,32 @@ body {
 img {
 	width: 100%;
 }
-
+.general-info {
+	display: flex;
+	place-items: center;
+	gap: 2rem;
+	padding: 2rem;
+}
+.data {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+}
+.data input {
+	width: 100%;
+	height: 3rem;
+	border: none;
+	border-bottom: 0.1rem solid rgba(100, 100, 100, 0.4);
+	font-family: "Nanum Pen Script", cursive;
+	font-size: 3rem;
+}
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.boton {
+	width: 30rem;
+	height: 6rem;
+}
