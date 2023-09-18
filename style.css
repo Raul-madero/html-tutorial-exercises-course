@@ -1,0 +1,27 @@
+html {
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 3rem;
+	font-family: "Nanum Pen Script", cursive;
+}
+.container {
+	width: 50rem;
+	height: 30rem;
+	margin: 0 auto;
+}
+.main-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem;
+}
+.logo {
+	width: 7rem;
+}
+img {
+	width: 100%;
+}
+
